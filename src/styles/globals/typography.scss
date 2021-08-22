@@ -1,5 +1,13 @@
+:root {
+  --fs-400: 1.125rem;
+
+  --fw-regular: 400;
+  --fw-bold: 500;
+}
+
 body {
   font-family: var(--ff-primary);
+  font-size: var(--fs-400);
   font-weight: var(--fw-regular);
 }
 
