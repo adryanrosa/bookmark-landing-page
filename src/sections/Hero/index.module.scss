@@ -1,0 +1,86 @@
+@use "../../styles/utils" as *;
+
+.hero {
+  text-align: center;
+  overflow: hidden;
+  width: 100vw;
+  max-width: 100%;
+
+  .wrapper {
+    max-width: 70rem;
+    @include margin-x-auto;
+
+    @include breakpoint-up(large) {
+      display: grid;
+      grid-template-columns: 5fr 4fr;
+      grid-template-areas: "text image";
+      gap: 1rem;
+    }
+  }
+
+  .image-container {
+    padding: 0 0.5rem 0.5rem;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      display: block;
+      bottom: 0;
+      left: 16.25%;
+      z-index: -100;
+      width: 200%;
+      height: 77.5%;
+      background-color: var(--clr-primary);
+      border-bottom-left-radius: 7.25rem;
+    }
+
+    @include breakpoint-up(large) {
+      grid-area: image;
+    }
+
+    @include breakpoint-up(x-large) {
+      img {
+        max-width: none;
+        width: 130%;
+      }
+
+      &::after {
+        left: 35%;
+        height: 68.75%;
+        border-bottom-left-radius: 10.625rem;
+      }
+    }
+  }
+
+  .text-container {
+    @include breakpoint-up(large) {
+      grid-area: text;
+      text-align: left;
+    }
+  }
+
+  h2 {
+    padding: 0 2rem;
+    font-size: 1.875rem;
+    color: var(--clr-neutral-700);
+    margin-top: 2.875rem;
+    margin-bottom: 1.125rem;
+
+    @include breakpoint-up(large) {
+      font-size: 3rem;
+      line-height: 1.0625;
+      margin-top: 4.75rem;
+    }
+  }
+
+  p {
+    padding: 0 2rem;
+    font-size: 0.9375rem;
+    line-height: 1.75;
+
+    @include breakpoint-up(large) {
+      font-size: 1.1625rem;
+    }
+  }
+}
