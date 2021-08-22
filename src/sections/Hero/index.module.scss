@@ -12,9 +12,11 @@
 
     @include breakpoint-up(large) {
       display: grid;
-      grid-template-columns: 5fr 4fr;
+      grid-template-columns: 1fr 1fr;
       grid-template-areas: "text image";
       gap: 1rem;
+      padding: 0 2rem;
+      box-sizing: content-box;
     }
   }
 
@@ -71,6 +73,7 @@
       font-size: 3rem;
       line-height: 1.0625;
       margin-top: 4.75rem;
+      padding: 0;
     }
   }
 
@@ -78,6 +81,12 @@
     padding: 0 2rem;
     font-size: 0.9375rem;
     line-height: 1.75;
+    max-width: 42ch;
+    padding: 0;
+
+    @include breakpoint-down(medium) {
+      @include margin-x-auto;
+    }
 
     @include breakpoint-up(large) {
       font-size: 1.1625rem;
