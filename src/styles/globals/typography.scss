@@ -1,0 +1,16 @@
+body {
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-regular);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: var(--fw-bold);
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
