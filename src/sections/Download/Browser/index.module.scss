@@ -1,0 +1,36 @@
+@use "../../../styles/utils" as *;
+
+.card {
+  width: 17.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 1.5rem;
+  background-image: url("../../../images/bg-dots.svg");
+  background-repeat: no-repeat;
+  background-position: 0 17.375rem;
+  padding-bottom: 5rem;
+
+  img {
+    @include margin-x-auto;
+    padding: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    color: var(--clr-neutral-700);
+    margin-bottom: 0.375rem;
+  }
+
+  span {
+    font-size: 0.9375rem;
+  }
+
+  @include breakpoint-up(large) {
+    &:first-of-type {
+      transform: translateY(-2rem);
+    }
+
+    &:last-of-type {
+      transform: translateY(2rem);
+    }
+  }
+}

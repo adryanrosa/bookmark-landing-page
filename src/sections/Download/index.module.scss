@@ -1,0 +1,19 @@
+@use "../../styles/utils" as *;
+
+.download {
+  padding: 0 2rem;
+  margin-top: 9.5rem;
+
+  .cards-grid {
+    @include margin-x-auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    width: fit-content;
+
+    @include breakpoint-up(large) {
+      flex-direction: row;
+      margin-top: 6.25rem;
+    }
+  }
+}
