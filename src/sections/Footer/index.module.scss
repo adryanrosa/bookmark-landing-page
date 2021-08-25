@@ -1,0 +1,81 @@
+@use "../../styles/utils" as *;
+
+.footer {
+  background-color: var(--clr-neutral-700);
+
+  .wrapper {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    max-width: 70rem;
+    @include margin-x-auto;
+
+    @include breakpoint-up(large) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  h2 {
+    margin-bottom: 0;
+    line-height: 1;
+  }
+
+  .links-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+
+    @include breakpoint-up(large) {
+      flex-direction: row;
+      gap: 4.125rem;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      @include breakpoint-up(large) {
+        flex-direction: row;
+        gap: 2.875rem;
+      }
+    }
+
+    li {
+      font-size: 0.9375rem;
+      color: var(--clr-neutral-100);
+      opacity: 0.75;
+      cursor: pointer;
+
+      @include media-hover {
+        &:hover {
+          color: var(--clr-accent);
+        }
+      }
+    }
+  }
+
+  .social {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      fill: var(--clr-neutral-100);
+      cursor: pointer;
+
+      @include media-hover {
+        &:hover {
+          fill: var(--clr-accent);
+        }
+      }
+    }
+
+    @include breakpoint-up(large) {
+      gap: 2.625rem;
+    }
+  }
+}

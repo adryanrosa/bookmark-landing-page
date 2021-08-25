@@ -1,13 +1,15 @@
 import React from 'react';
-import Download from './sections/Download';
 
 import Hero from './sections/Hero';
+import Download from './sections/Download';
+import Footer from './sections/Footer';
 
 function App() {
   return (
     <>
       <Hero />
       <Download />
+      <Footer />
     </>
   );
 }
