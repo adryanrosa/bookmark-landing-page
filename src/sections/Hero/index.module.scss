@@ -84,16 +84,22 @@
   }
 
   .buttons-wrapper {
-    margin-top: 2.25rem;
-    padding: 0 1rem;
     display: grid;
-    grid-template-columns: repeat(2, 9.625rem);
     gap: 1rem;
-    justify-content: center;
+    padding: 0 2rem;
+    margin-top: 2.25rem;
+    overflow: visible;
+    padding-bottom: 3rem;
 
-    button {
-      padding-left: 0;
-      padding-right: 0;
+    @media (min-width: 360px) {
+      display: grid;
+      grid-template-columns: repeat(2, 9.625rem);
+      justify-content: center;
+
+      button {
+        padding-left: 0;
+        padding-right: 0;
+      }
     }
 
     @include breakpoint-up(large) {

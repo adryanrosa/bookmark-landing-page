@@ -1,13 +1,12 @@
 @use "../../../styles/utils" as *;
 
 .card {
-  width: 17.5rem;
+  max-width: 17.5rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 1.5rem;
   background-image: url("../../../images/bg-dots.svg");
   background-repeat: no-repeat;
-  background-position: 0 17.375rem;
-  padding-bottom: 5rem;
+  background-position: 0 17.5rem;
 
   img {
     @include margin-x-auto;
@@ -22,6 +21,13 @@
 
   span {
     font-size: 0.9375rem;
+  }
+
+  button {
+    margin-top: 4rem;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   @include breakpoint-up(large) {
