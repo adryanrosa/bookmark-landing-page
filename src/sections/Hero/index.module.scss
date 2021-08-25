@@ -91,9 +91,15 @@
     gap: 1rem;
     justify-content: center;
 
+    button {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
     @include breakpoint-up(large) {
       padding: 0;
       justify-content: start;
+      grid-template-columns: repeat(2, 10rem);
     }
   }
 }

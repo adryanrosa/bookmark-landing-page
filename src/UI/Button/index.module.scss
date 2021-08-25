@@ -1,9 +1,15 @@
+@use "../../styles/utils" as *;
+
 .button {
   font-size: 0.875rem;
   padding: 0.875rem 1.125rem;
   border: none;
   border-radius: 0.3125rem;
   font-weight: var(--fw-bold);
+
+  @include breakpoint-up(large) {
+    font-size: 0.9375rem;
+  }
 }
 
 .blue {
