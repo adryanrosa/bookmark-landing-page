@@ -6,6 +6,7 @@
   border: none;
   border-radius: 0.3125rem;
   font-weight: var(--fw-bold);
+  cursor: pointer;
 
   @include breakpoint-up(large) {
     font-size: 0.9375rem;
