@@ -43,7 +43,7 @@
     @include breakpoint-up(x-large) {
       img {
         max-width: none;
-        width: 130%;
+        width: 125%;
       }
 
       &::after {
@@ -80,6 +80,20 @@
     @include breakpoint-up(large) {
       padding: 0;
       margin-left: 0;
+    }
+  }
+
+  .buttons-wrapper {
+    margin-top: 2.25rem;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 9.625rem);
+    gap: 1rem;
+    justify-content: center;
+
+    @include breakpoint-up(large) {
+      padding: 0;
+      justify-content: start;
     }
   }
 }

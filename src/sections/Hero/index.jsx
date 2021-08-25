@@ -2,6 +2,7 @@ import React from 'react';
 
 import styles from './index.module.scss';
 import Illustration from '../../images/illustration-hero.svg';
+import Button from '../../UI/Button';
 
 function Hero() {
   return (
@@ -16,6 +17,10 @@ function Hero() {
             A clean and simple interface to organize your favourite websites. Open a new
             browser tab and see your sites load instantly. Try it for free.
           </p>
+          <div className={ styles['buttons-wrapper'] }>
+            <Button color="blue">Get in on Chrome</Button>
+            <Button color="gray">Get in on Firefox</Button>
+          </div>
         </div>
       </div>
     </section>
