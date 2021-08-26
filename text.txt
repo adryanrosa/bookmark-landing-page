@@ -3,9 +3,6 @@ Pricing
 Contact
 Login
 
-Get it on Chrome
-Get it on Firefox
-
 Features
 
 Our aim is to make it quick and easy for you to access your favourite websites.
@@ -35,18 +32,6 @@ Easily share your bookmarks and collections with others. Create a shareable
 link that you can send at the click of a button.
 
 More Info
-
-Add to Chrome
-Minimum version 62
-Add & Install Extension
-
-Add to Firefox
-Minimum version 55
-Add & Install Extension
-
-Add to Opera
-Minimum version 46
-Add & Install Extension
 
 Frequently Asked Questions
 
@@ -85,13 +70,3 @@ Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euism
 vitae neque eget nisl gravida pellentesque non ut velit.
 
 More Info
-
-35,000+ already joined
-
-Stay up-to-date with what we’re doing
-
-Contact Us
-
-Features
-Pricing
-Contact

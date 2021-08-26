@@ -1,0 +1,73 @@
+@use "../../styles/utils/" as *;
+
+.contact {
+  background-color: var(--clr-primary);
+  color: var(--clr-neutral-100);
+  padding: 4.5rem 2rem;
+
+  p {
+    font-size: 0.9375rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+
+    @include breakpoint-up(large) {
+      letter-spacing: 0.3125em;
+    }
+  }
+
+  h2 {
+    color: var(--clr-neutral-100);
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+
+    @include breakpoint-up(large) {
+      font-size: 2.0625rem;
+      max-width: 20ch;
+      margin-top: 2.375rem;
+      @include margin-x-auto;
+    }
+  }
+
+  form {
+    margin-top: 2rem;
+
+    @include breakpoint-up(large) {
+      display: grid;
+      grid-template-columns: 18.75rem 7.875rem;
+      gap: 1rem;
+      justify-content: center;
+    }
+  }
+
+  input {
+    font-size: 0.875rem;
+    padding: 0.875rem 1.125rem;
+    border-radius: 0.3125rem;
+    border: none;
+    color: var(--clr-neutral-700);
+
+    &::placeholder {
+      color: var(--clr-neutral-400);
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    @include breakpoint-down(medium) {
+      width: 100%;
+    }
+
+    @include breakpoint-up(large) {
+      font-size: 0.9375rem;
+    }
+  }
+
+  button {
+    @include breakpoint-down(medium) {
+      margin-top: 1rem;
+      display: block;
+      width: 100%;
+    }
+  }
+}

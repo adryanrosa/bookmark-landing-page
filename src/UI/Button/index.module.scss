@@ -8,6 +8,10 @@
   font-weight: var(--fw-bold);
   cursor: pointer;
 
+  &:focus {
+    outline: none;
+  }
+
   @include breakpoint-up(large) {
     font-size: 0.9375rem;
   }
@@ -22,4 +26,9 @@
   background-color: var(--clr-neutral-100);
   color: var(--clr-neutral-700);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.red {
+  background-color: var(--clr-accent);
+  color: var(--clr-neutral-100);
 }
