@@ -69,8 +69,12 @@
     @include breakpoint-up(large) {
       font-size: 3rem;
       line-height: 1.0625;
-      margin-top: 4.75rem;
       padding: 0;
+      margin-top: 1.875rem;
+    }
+
+    @include breakpoint-up(x-large) {
+      margin-top: 4.75rem;
     }
   }
 
@@ -88,8 +92,7 @@
     gap: 1rem;
     padding: 0 2rem;
     margin-top: 2.25rem;
-    overflow: visible;
-    padding-bottom: 3rem;
+    padding-bottom: 0.625rem;
 
     @media (min-width: 360px) {
       display: grid;
@@ -103,7 +106,7 @@
     }
 
     @include breakpoint-up(large) {
-      padding: 0;
+      padding-left: 0;
       justify-content: start;
       grid-template-columns: repeat(2, 10rem);
     }
