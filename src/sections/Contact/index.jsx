@@ -37,7 +37,7 @@ function Contact() {
           <span>Whoops, make sure its an email</span>
         </div>
         <Button
-          type="submit"
+          submit
           color="red"
         >
           Contact Us
