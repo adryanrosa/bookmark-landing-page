@@ -3,12 +3,12 @@
 .accordion {
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid hsla(229, 8%, 60%, 0.375);
+  border-bottom: 1px solid hsla(229, 8%, 60%, 0.25);
   padding: 1.125rem 0;
 
   @include breakpoint-up(medium) {
     &:first-of-type {
-      border-top: 1px solid hsla(229, 8%, 60%, 0.375);
+      border-top: 1px solid hsla(229, 8%, 60%, 0.25);
       padding: 1.25rem 0;
     }
   }

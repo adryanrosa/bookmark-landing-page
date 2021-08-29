@@ -19,6 +19,7 @@
 
     @include breakpoint-up(large) {
       flex-direction: row;
+      margin-top: 4.875rem;
     }
   }
 }
