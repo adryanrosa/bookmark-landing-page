@@ -26,6 +26,10 @@
       color: var(--clr-neutral-400);
       padding: 1rem 0;
       cursor: pointer;
+
+      &:focus {
+        outline: none;
+      }
     }
 
     .btn-active {
@@ -73,7 +77,11 @@
   .carousel {
     display: grid;
     grid-template-columns: repeat(3, 100%);
-    transition: transform 750ms ease-out;
+    transition: transform 250ms ease-out;
+
+    @include breakpoint-up(large) {
+      transition: transform 500ms ease-out;
+    }
   }
 
   .carousel--searching {
