@@ -73,7 +73,7 @@
   .carousel {
     display: grid;
     grid-template-columns: repeat(3, 100%);
-    transition: transform 312.5ms;
+    transition: transform 750ms ease-out;
   }
 
   .carousel--searching {
@@ -107,7 +107,7 @@
         bottom: -7.5%;
         right: 25%;
         height: 92.5%;
-        width: 250%;
+        width: 500%;
         background-color: var(--clr-primary);
         z-index: -100;
         border-top-right-radius: 10rem;
