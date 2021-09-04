@@ -4,6 +4,11 @@
   overflow: hidden;
   width: 100vw;
   max-width: 100%;
+  margin-top: 9rem;
+
+  @include breakpoint-up(large) {
+    margin-top: 12.5rem;
+  }
 
   .wrapper {
     max-width: 70rem;
