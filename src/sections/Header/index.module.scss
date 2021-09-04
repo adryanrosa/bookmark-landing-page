@@ -59,7 +59,7 @@
 }
 
 .menu {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   position: absolute;
   top: 0;
@@ -71,7 +71,7 @@
   opacity: 0;
   visibility: hidden;
   transform: translateY(-100%);
-  transition: 312.5ms ease-in-out;
+  transition: 250ms ease-in-out;
 
   nav {
     height: 100%;
