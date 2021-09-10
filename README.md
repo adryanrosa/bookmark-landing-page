@@ -24,12 +24,11 @@ Essa é uma solução do desafio [Bookmark landing page](https://www.frontendmen
 
 Usuários devem ser capazes de:
 
-<!-- - View the optimal layout for the site depending on their device's screen size -->
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Receive an error message when the newsletter form is submitted if:
-  - The input field is empty
-  -The email address is not formatted correctly
+- Visualizar o layout do site otimizado para o tamanho de sua tela 
+- Interagir com elementos da página que apresentam hover states
+- Receber uma mensagem de erro quando a inscrição da newsletter é submetida, caso:
+  - O campo `input` estiver vazio
+  - O endereço de email estiver formatado incorretamente
 
 ### Screenshot
 
