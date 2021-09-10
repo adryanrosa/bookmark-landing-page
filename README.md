@@ -75,6 +75,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 Esses artigos me mostraram como estilização modular pode melhorar a experiência de manutenção do código e torná-lo escalável. Dado isso, resolvi aplicar nesse meu projeto, me baseando nas arquiteturas mostradas nos artigos.
 
+- [React Accordion Using React Hooks](https://youtu.be/MAD2HnUFjgg) - Tive o primeiro contato com o hook useRef() através desse vídeo, que me foi muito útil para a construção do accordion da página
+
 <!-- ## Autor
 
 - Website - [Add your name here](https://www.your-site.com)
