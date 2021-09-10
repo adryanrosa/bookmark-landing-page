@@ -72,6 +72,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - [Modular SCSS and Why You Need It](https://medium.com/clover-platform-blog/modular-scss-and-why-you-need-it-6bb2d8c40fd8)
 - [How to Use Sass with CSS Modules in Next.js](https://www.freecodecamp.org/news/how-to-use-sass-with-css-modules-in-next-js/)
+
 Esses artigos me mostraram como estilização modular pode melhorar a experiência de manutenção do código e torná-lo escalável. Dado isso, resolvi aplicar nesse meu projeto, me baseando nas arquiteturas mostradas nos artigos.
 
 <!-- ## Autor
