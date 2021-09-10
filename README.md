@@ -12,7 +12,7 @@ Essa é uma solução do desafio [Bookmark landing page](https://www.frontendmen
   - [Feito com ](#feito-com)
   <!-- - [O que aprendi](#o-que-aprendi)
   - [Desenvolvimento contínuo](#desenvolvimento-contínuo) -->
-<!--   - [Recursos úteis](#recursos-úteis) -->
+- [Recursos úteis](#recursos-úteis)
 <!-- - [Autor](#autor) -->
 
 ## Visão geral
@@ -68,9 +68,11 @@ const proudOfThisFunc = () => {
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect. -->
 
-<!-- ### Recursos úteis
+### Recursos úteis
 
-- [Sass Masterclass - Rocketseat](https://www.youtube.com/watch?v=BaI8dHUthLA) - Essa aula me ajudou a entender @mixins, @include, @extends, etc. funcionalidades do Sass para facilitar a organização do projeto e evitar repetições. Vou continuar utilizando-as daqui pra frente. -->
+- [Modular SCSS and Why You Need It](https://medium.com/clover-platform-blog/modular-scss-and-why-you-need-it-6bb2d8c40fd8)
+- [How to Use Sass with CSS Modules in Next.js](https://www.freecodecamp.org/news/how-to-use-sass-with-css-modules-in-next-js/)
+Esses artigos me mostraram como estilização modular pode melhorar a experiência de manutenção do código e torná-lo escalável. Dado isso, resolvi aplicar nesse meu projeto, me baseando nas arquiteturas mostradas nos artigos.
 
 <!-- ## Autor
 
