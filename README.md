@@ -32,7 +32,7 @@ Usuários devem ser capazes de:
 
 ### Screenshot
 
-![](./screenshot.png)
+![image](./screenshot.png)
 
 ## O processo
 
