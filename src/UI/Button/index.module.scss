@@ -20,12 +20,27 @@
 .blue {
   background-color: var(--clr-primary);
   color: var(--clr-neutral-100);
+
+  @include media-hover {
+    &:hover {
+      background-color: transparent;
+      color: var(--clr-primary);
+      border: 0.125rem solid var(--clr-primary);
+    }
+  }
 }
 
 .gray {
   background-color: var(--clr-neutral-100);
   color: var(--clr-neutral-700);
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  @include media-hover {
+    &:hover {
+      background-color: transparent;
+      border: 0.125rem solid var(--clr-neutral-700);
+    }
+  }
 }
 
 .red {
@@ -34,9 +49,23 @@
 
   @include media-hover {
     &:hover {
-      background-color: transparent;
+      background-color: var(--clr-neutral-100);
       color: var(--clr-accent);
       border: 0.125rem solid var(--clr-accent);
+    }
+  }
+}
+
+.blue,
+.gray,
+.red {
+  @include media-hover {
+    &:hover {
+      background-color: var(--clr-neutral-100);
+      color: var(--clr-accent);
+      border: 0.125rem solid var(--clr-accent);
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
     }
   }
 }
