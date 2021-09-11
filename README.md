@@ -69,7 +69,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Recursos úteis
 
-- [Modular SCSS and Why You Need It](https://medium.com/clover-platform-blog/modular-scss-and-why-you-need-it-6bb2d8c40fd8), [How to Use Sass with CSS Modules in Next.js](https://www.freecodecamp.org/news/how-to-use-sass-with-css-modules-in-next-js/) - Ambos artigos me mostraram como estilização modular pode melhorar a experiência de manutenção do código e torná-lo escalável. Dado isso, resolvi aplicar nesse meu projeto, me baseando nas arquiteturas mostradas nos artigos
+- [Modular SCSS and Why You Need It](https://medium.com/clover-platform-blog/modular-scss-and-why-you-need-it-6bb2d8c40fd8), [How to Use Sass with CSS Modules in Next.js](https://www.freecodecamp.org/news/how-to-use-sass-with-css-modules-in-next-js/) - Ambos artigos me mostraram como estilização modular pode melhorar a experiência de manutenção do código e torná-lo escalável. Dado isso, resolvi aplicar o que aprendi, me baseando nas arquiteturas mostradas nos artigos
+
+- [Stop using @import with Sass](https://youtu.be/CR-a8upNjJ0), [Sass @import is being replaced](https://youtu.be/dOnYNEXv9BM) - Sendo meu primeiro projeto usando Dart Sass, entendi, com esses vídeos, os problemas de se usar @import e quais os benefícios/diferenças das novas introduções.
 
 - [React Accordion Using React Hooks](https://youtu.be/MAD2HnUFjgg) - Tive o primeiro contato com o hook useRef() através desse vídeo, que me foi muito útil para a construção do accordion da página
 
