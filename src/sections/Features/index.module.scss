@@ -30,11 +30,23 @@
       &:focus {
         outline: none;
       }
+
+      @include media-hover {
+        &:hover {
+          color: var(--clr-accent);
+        }
+      }
     }
 
     .btn-active {
       color: var(--clr-neutral-700);
       position: relative;
+
+      @include media-hover {
+        &:hover {
+          color: var(--clr-neutral-700);
+        }
+      }
 
       &::after {
         content: "";
