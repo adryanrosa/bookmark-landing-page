@@ -10,9 +10,9 @@ Essa é uma solução do desafio [Bookmark landing page](https://www.frontendmen
   - [Screenshot](#screenshot)
 - [O processo](#o-processo)
   - [Feito com ](#feito-com)
+  - [Recursos úteis](#recursos-úteis)
   <!-- - [O que aprendi](#o-que-aprendi)
   - [Desenvolvimento contínuo](#desenvolvimento-contínuo) -->
-- [Recursos úteis](#recursos-úteis)
 <!-- - [Autor](#autor) -->
 
 ## Visão geral
