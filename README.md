@@ -18,7 +18,18 @@ Essa é uma solução do desafio [Bookmark landing page](https://www.frontendmen
 ## Visão geral
 
 ### O site
-- Quer testar minha aplicação? Clique [aqui](https://bookmark-landing-page-adryanrosa.vercel.app/)
+- Quer acessar minha aplicação? Clique [aqui](https://bookmark-landing-page-adryanrosa.vercel.app/)
+- Deseja testa-lá localmente? Vamos lá
+  1. Clone o repositório
+    * `git clone git@github.com:adryanrosa/bookmark-landing-page.git`.
+    * Entre na pasta do repositório que você acabou de clonar:
+     * `cd bookmark-landing-page`
+
+  2. Instale as dependências e inicialize o projeto
+    * Instale as dependências:
+     * `npm install`
+    * Inicialize o projeto:
+     * `npm start` (uma nova página deve abrir no seu navegador)
 
 ### A proposta
 
