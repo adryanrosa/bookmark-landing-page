@@ -1,4 +1,5 @@
 # Frontend Mentor - Bookmark landing page
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/adryanrosa/bookmark-landing-page/blob/main/README-en.md)
 
 Essa é uma solução do desafio [Bookmark landing page](https://www.frontendmentor.io/challenges/bookmark-landing-page-5d0b588a9edda32581d29158) por [Frontend Mentor](https://www.frontendmentor.io).
 
