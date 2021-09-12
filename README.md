@@ -23,7 +23,7 @@ Essa é uma solução do desafio [Bookmark landing page](https://www.frontendmen
 - Quer acessar minha aplicação? Clique [aqui](https://bookmark-landing-page-adryanrosa.vercel.app/)
 - Deseja testa-lá localmente? Vamos lá
   1. Clone o repositório
-    * `git clone git@github.com:adryanrosa/bookmark-landing-page.git`.
+    * `git clone git@github.com:adryanrosa/bookmark-landing-page.git`
     * Entre na pasta do repositório que você acabou de clonar:
      * `cd bookmark-landing-page`
 
