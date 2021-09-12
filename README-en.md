@@ -24,9 +24,9 @@ This is a solution to the [Bookmark landing page](https://www.frontendmentor.io/
 - Please visit my application [at](https://url-shortening-api-landing-page-adryanrosa.vercel.app/)
 - Want to check it locally? Follow the steps
   1. Clone the repository
-    * `git clone git@github.com:adryanrosa/url-shortening-api-landing-page.git`.
+    * `git clone git@github.com:adryanrosa/bookmark-landing-page.git`.
     * Enter the cloned repository folder:
-     * `cd url-shortening-api-landing-page`
+     * `cd bookmark-landing-page`
 
   2. Install the dependencies and start the project
     * Install the dependencies:
