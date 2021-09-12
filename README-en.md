@@ -21,7 +21,7 @@ This is a solution to the [Bookmark landing page](https://www.frontendmentor.io/
 
 ### Live site and instructions
 
-- Please visit my application [at](https://url-shortening-api-landing-page-adryanrosa.vercel.app/)
+- Please visit my application [at](https://bookmark-landing-page-adryanrosa.vercel.app/)
 - Want to check it locally? Follow the steps
   1. Clone the repository
     * `git clone git@github.com:adryanrosa/bookmark-landing-page.git`
