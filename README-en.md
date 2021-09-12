@@ -1,7 +1,7 @@
 # Frontend Mentor - Bookmark landing page
 [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/adryanrosa/bookmark-landing-page/blob/main/README.md)
 
-This is a solution to the [Bookmark landing page](https://www.frontendmentor.io/challenges/bookmark-landing-page-5d0b588a9edda32581d29158) challenge on [Frontend Mentor](https://www.frontendmentor.io).
+This is a solution to the [Bookmark landing page](https://www.frontendmentor.io/challenges/bookmark-landing-page-5d0b588a9edda32581d29158) challenge on [Frontend Mentor](https://www.frontendmentor.io)
 
 
 ## Table of contents
