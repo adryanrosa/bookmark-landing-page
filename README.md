@@ -51,7 +51,7 @@ Usuários devem ser capazes de:
 
 ### Feito com
 
-- [React](https://reactjs.org/) - Livraria JavaScript para Frontend
+- [React](https://reactjs.org/) - Livraria JavaScript para frontend
 - [Sass](https://sass-lang.com/) - Pré-processador CSS
 - [CSS Modules](https://github.com/css-modules/css-modules) - CSS module bundler
 - Workflow Mobile-first
